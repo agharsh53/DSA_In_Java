@@ -112,7 +112,7 @@ public class maze {
             return;
         }
 
-        // i am considering this black in my path
+        // I am considering this black in my path
         maze[r][c]=false;
         if(r<maze.length-1){
             addAllPath(p+"D",maze,r+1,c);
@@ -144,7 +144,7 @@ public class maze {
             return;
         }
 
-        // i am considering this black in my path
+        // I am considering this black in my path
         maze[r][c]=false;
         path[r][c] =step;
         if(r<maze.length-1){
