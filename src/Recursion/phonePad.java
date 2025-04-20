@@ -2,7 +2,8 @@ package Recursion;
 
 import java.util.ArrayList;
 
-public class phonePad {
+public class
+phonePad {
     public static void main(String[] args) {
         //pad("","23");
         ArrayList<String> ans = padret("","23");

@@ -6,8 +6,11 @@ public class Permutation {
     public static void main(String[] args) {
         //permutations("","abc");
         ArrayList<String> ans = new ArrayList<>();
-        ans = permutationList("","abc");
+        ans = permutationList("","ABC");
         System.out.println(ans);
+        ArrayList<String> ans2 = new ArrayList<>();
+        ans2 = permutationList("","ABCD");
+        System.out.println(ans2);
 
         System.out.println(permutationCount("","abcs"));
     }

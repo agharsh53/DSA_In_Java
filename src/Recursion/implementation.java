@@ -11,7 +11,7 @@ public class implementation {
         System.out.println();
         //base condition
         if(num==5){
-            System.out.format("%.0f",square);
+            System.out.format("%.02f",square);
             System.out.println();
             return;
         }
