@@ -9,6 +9,7 @@ import java.util.Scanner;
 // Each line of the N sequence lines(Where 1<i<N) contains an integer describing A[i].
 // Sample input : 12 2 1 2 2 3 2 3 5 1 2 1 1 sample output : 12
 // Sample input : 3 1 -1 -2 -3 sample output : 0
+
 public class maxGoodSubArraySum {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
