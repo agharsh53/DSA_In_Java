@@ -23,9 +23,9 @@ public class Mountain {
             }
         }
         // in the end , start == end and pointing to the largest number because of the 2 checks above 3
-        //start and end are alwaays trying to find max element in the above 2 checks
+        //start and end are always trying to find max element in the above 2 checks
         //hence they are pointing to just one element, that is the max one because that is what we chat say
-        //more elaboration : at every point of time for start and end , thay have the best possible ans till that time
+        //more elaboration : at every point of time for start and end , they have the best possible ans till that time
         //if we are saying only one item is remaining, hence cuz of above line that is the best possible ans
         return start; // or return end as both are  ==
     }

@@ -9,7 +9,7 @@ public class InfiniteArray {
     }
     public static int ans(int[] arr, int target){
       //first find the range
-      //first start box six from end if it does not match then then twice the end size
+      //first start box six from end if it does not match then twice the end size
         int start = 0;
         int end =  1;
         //condition for target greater then end
@@ -20,6 +20,7 @@ public class InfiniteArray {
             end = end + (end-start+1)*2;
             start = temp;
         }
+
         return binarySearch(arr, target, start, end);
     }
     public static int binarySearch(int[] arr, int target, int start , int end){
