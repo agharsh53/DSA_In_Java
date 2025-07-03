@@ -9,7 +9,7 @@ public class ceiling {
     }
 
     //return the index of  smallest no. >= target
-    //ceiling is just a nunber which is greater then the target nuber
+    //ceiling is just a number which is greater then the target number
     static int ceiling(int[] arr, int target){
         if(target > arr[arr.length-1]){
             return -1;
