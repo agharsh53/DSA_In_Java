@@ -1,5 +1,6 @@
 package problemSolving;
 
+//https://www.geeksforgeeks.org/dsa/minimum-time-required-so-that-all-oranges-become-rotten/
 public class rottenOrange {
     private boolean isSafe(int i, int j, int n, int m){
         return 0<=i && i<n && 0<=j && j<m;
