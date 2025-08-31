@@ -15,13 +15,30 @@ public class validSudoku {
         };
         System.out.println(isValidSudoku(board));
     }
+    public static boolean checkValid(char ch, int col, int row, char[][] board){
+        for(int i=0; i<9; i++){
+            if(board[col][i]==ch && i!=row){
+                return false;
+            }
+            if(board[i][row]==ch && i!=col){
+                return false;
+            }
+            int coli = 3 * (col / 3) + (i % 3);
+            int rowi = 3 * (row / 3) + (i / 3);
+            if (board[coli][rowi] == ch && coli!=col && rowi!=row){
+                return false;
+            }
+        }
+        return true;
+    }
+
 
     public static boolean isValidSudoku(char[][] board) {
         for(int i=0; i<9; i++){
             for(int j=0; j<9; j++){
                 char ch = board[i][j];
                 if(ch!='.'){
-                    if(!checkRow(ch,i,j,board) || !checkCol(ch,i,j,board) || !checkMat(ch,i,j,board)){
+                    if(!checkValid(ch,i,j,board)){
                         return false;
                     }
                 }
