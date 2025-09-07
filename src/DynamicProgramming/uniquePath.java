@@ -1,4 +1,4 @@
-package BufferedReaderClass;
+package DynamicProgramming;
 
 public class uniquePath {
     public static void main(String[] args) {
