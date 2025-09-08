@@ -1,7 +1,7 @@
 package DynamicProgramming;
 import java.util.*;
 public class recursion {
-    //Memorization aproch in Dynamic Programming means Bottom - Top approach base condition
+    //Memorization approach in Dynamic Programming means Bottom - Top approach base condition
 
     static int f(int n, int[] dp){
         if(n<=1) return n;
