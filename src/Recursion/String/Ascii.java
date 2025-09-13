@@ -6,8 +6,8 @@ public class Ascii {
     public static void main(String[] args) {
         char ch = 'b';
         System.out.println(ch+0);
-        //subSeqAscii("","abc");
-        System.out.println(subSeqRetAscii("","abc"));
+        subSeqAscii("","abc");
+        //System.out.println(subSeqRetAscii("","abc"));
     }
     public static void subSeqAscii(String p, String up){
         if(up.isEmpty()){
